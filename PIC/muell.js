@@ -117,6 +117,7 @@ function wordCorrectionFactor(text, styles, w, h, fz) {
 
 
 }
+//#endregion
 
 //#region dep start over!
 function showFont(family) {

@@ -40,10 +40,10 @@ function presentOidNodes(R, area, lf, ls, lo) {
 	// 	}
 	// }
 }
-function presentAddNode(n, title, area, lf, ls, lo) {
-	if (nundef(lo)) lo=[];
-	addIf(lo,'act');
-	addIf(lo,'ui');
+function presentAddNode(n, title, area, lstFlatten, lstShow, lstOmit) {
+	if (nundef(lstOmit)) lstOmit=[];
+	addIf(lstOmit,'act');
+	addIf(lstOmit,'ui');
 	let d = isString(area) ? mBy(area) : area;
-	mNodeFilter(n, { dParent: d, title: title, lstFlatten: lf, lstShow: ls, lstOmit: lo });
+	mNodeFilter(n, { dParent: d, title: title, lstFlatten: lstFlatten, lstShow: lstShow, lstOmit: lstOmit });
 }

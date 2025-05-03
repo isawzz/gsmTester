@@ -3,7 +3,7 @@
     _NODE: sa
     params:
       bg: red
-      overlap: 50
+      overlap: 10
   sa:
     cond: 
       name: amanda

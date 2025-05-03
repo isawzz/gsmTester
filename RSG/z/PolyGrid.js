@@ -939,6 +939,7 @@ function createQuadGrid(tableData, areaName, dataInfo) {
 function createBoardElem(el, boardId, gName, syskey, w, h, color, shape, xmult, ymult) {
 	//console.log('createBoardElem', el);
 	//console.log(boardId, gName, syskey, w, h, color, shape, xmult, ymult);
+	console.log('hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh')
 	let ms = new MS(el.id, gName);
 	x = el.x * xmult;
 	y = el.y * ymult;
